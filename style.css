@@ -37,7 +37,6 @@ body {
 .body-map__container {
     display: flex;
     gap: 24px;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
