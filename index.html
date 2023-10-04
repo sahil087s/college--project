@@ -16,12 +16,26 @@
 
 <body>
 
+    <!-- BG ANIMATION -->
+<div>
+    <div class='light x1'></div>
+    <div class='light x2'></div>
+    <div class='light x3'></div>
+    <div class='light x4'></div>
+    <div class='light x5'></div>
+    <div class='light x6'></div>
+    <div class='light x7'></div>
+    <div class='light x8'></div>
+    <div class='light x9'></div>
+</div>
+
+<!-- BG ANIMATIONE end -->
     <!-- navbar start -->
     <div class="section">
         <header>
             <nav class="navbar tb-bg-white">
                 <a href="index.html">
-                    <img src="./img/logog.png" class="logo">
+                    <img src="./img/44.png" class="logo">
 
                 </a>
                 <div class="tb-flex">
@@ -35,7 +49,7 @@
                     </ul>
                     <!-- <li class="search-bar"> -->
                     <div class="search-bar">
-                        <input class="search-input" type="text" placeholder="Search for product">
+                        <input class="search-input" type="text" placeholder="Search diets,Workout">
                         <span class=" fas fa-search search-icon search-input-icon"></span>
                     </div>
 
@@ -64,7 +78,7 @@
             <button>BODYWEIGHT</button>
             <button>BARBELL</button>
             <button>CABELS</button>
-            <button class="last-btn">FEATURED</button>
+            <button class="last-btn">DUMBELLS</button>
         </div>
         <!-- <div class="smenu">
             <ul>
@@ -90,6 +104,13 @@
     <!-- BODY structure start -->
 
     <div class="body-map lg:tw-mt-6" id="body-map">
+
+        <div id="my-iframe">
+            <iframe id="user-iframe" class="content-window" src="./iframeContent.html">
+            </iframe>
+        </div>
+
+
         <div id="male-body-maps" class="body-map__container" style="display: flex;">
             <div class="body-map__body" id="beginner-body-map" style="display: block;">
                 <svg height="100%" viewBox="0 0 673 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1016,14 +1037,50 @@
     <!-- BODY structure end -->
 
 
-    <div id="my-iframe">
-        <iframe id="user-iframe" src="./iframeContent.html">
-        </iframe>
-    </div>
-
+   
     <!-- Footer  -->
 
-    <div class="footer">
+    <footer>
+        <div class="f-item-con">
+            <div class="app-info">
+                <span class='app-name'>
+                    <span class='app-initial'>Fitness</span> <a style="color:red;">50 Fifty</a> 
+                <p>Your Path to <strong>Wellness  </strong> Begins <strong>with Us</strong></p>
+            </div>
+            <div class="useful-links">
+                <div class="footer-title">Useful Links</div>
+                <ul>
+                   
+                    <li>About Us</li>
+                    
+                    <!-- <li>Advertise with Us</li> -->
+                    <li>Terms and Conditions</li>
+                </ul>
+            </div>
+            <div class="help-sec">
+                <div class="footer-title">Help</div>
+                <ul>
+                    <li>Help Me</li>
+                    <li>Feedback</li>
+                    <li>Report a Issue / Bug</li>
+                </ul>
+            </div>
+            <div class="g-i-t">
+                <div class="footer-title">Get in Touch if you want personal advice</div>
+                <form action="/" method="post" class="space-y-2">
+                    <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
+                    <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
+                    <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+                        placeholder='Message...'></textarea>
+                    <button type="submit" class='f-btn'>Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class='cr-con'>Copyright &copy; 2022 | Made by Hrk</div>
+    </footer>
+
+
+    <!-- <div class="footer">
         <div class="f-container">
             <div>
                 <div class="footer-grid">
@@ -1071,7 +1128,7 @@
                 <div class="flex-container-mobile"></div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Footer end -->
 </body>
