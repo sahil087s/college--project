@@ -24,13 +24,15 @@ body {
 .body-map {
     padding: 0 0 24px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 @media (min-width: 1024px) {
 .lg\:tw-mt-6 {
-    margin-top: 1.5rem;
+    margin: 24px 0 0 24px;
+    /* margin-left: 24px; */
 }
 }
 
@@ -41,7 +43,7 @@ body {
 }
 
 .body-map__body {
-    height: 800px;
+    height: 700px;
     max-width: 50%;
 }
 
@@ -368,4 +370,10 @@ ul.nav-links > li > a.active {
 }
 .material-symbols-outlined{
     color: #ffffff;
+}
+
+.content-window {
+    height: 700px;
+    width: 500px;
+    border: none;
 }
