@@ -82,3 +82,13 @@ humanBody.addEventListener('click', async (event) => {
     console.log(response);
     userIframe.src = response.message;
 })
+
+
+// ------------->>>>>>>>>>>>>>
+
+
+let chestbtn = document.getElementById("#chest");
+let chestcontent = document.querySelector("#chest-content");
+chestbtn.addEventListener('click' , ()=>{
+    chestcontent.style.visiblity = "visible";
+})
